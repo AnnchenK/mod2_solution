@@ -1,27 +1,42 @@
 h1 {
     text-align: center;
+    font-size: 175%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #div1, #div2, #div3 {
     box-sizing: border-box;
     text-align: left;
     padding: 1%;
-    background-color: gray;
+    background-color: rgb(172, 170, 170);
     font-family: Arial, Helvetica, sans-serif;
-    height: max-content;
-    border: solid 2px black;
+    height: auto;
+    border: solid 1px black;
 }
 
 #title {
     box-sizing: border-box;
     text-align: center;
-    padding: 1%;
-    border: solid 2px black;
+    padding: 5px;
+    border: solid 1px black;
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 20%;
-    
+    top: -1px;
+    right: -1px;
+    width: 100px;
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pink {
+    background-color: rgb(236, 132, 150);
+}
+
+.red {
+    background-color: rgb(233, 75, 75);
+}
+
+.yellow {
+    background-color: rgb(228, 228, 86);
 }
 
 @media (min-width: 992px) {
@@ -48,6 +63,11 @@ h1 {
         position: relative;
         float: left;
         margin: 2.5%;
+        padding-top: 4%;
+    }
+
+    #title {
+        padding: 3.5px;
     }
 }
 
@@ -56,6 +76,10 @@ h1 {
         width: 95%;
         margin: 2.5%;
         position: relative;
-        padding-top: 6%;
+        padding-top: 10%;
+    }
+
+    #title {
+        padding: 2px;
     }
 }
